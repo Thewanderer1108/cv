@@ -1,71 +1,75 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Allan's Personal Site</title>
+    <title>Allan Ryngksai</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Merriweather&family=Shantell+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <table cellspacing="25">
-        <tr>
-            <td><img src="Allan.png" alt="Allan Ryngksai's Profile Picture"></td>
-            <td><h1>Allan Ryngksai</h1>
-                <p><em>Software developer by Prefession and <strong>Biker by Heart. <a href="https://www.husqvarnamotorcyclesindia.com/">My bike Husqvarna Vitpilen 250</a></strong></em></p>  <!-- Italicizing the text alternatively we can use <i> </i> also for bold we use <strong></Strong>-->
-                <p>I am a Fraud Analyst at JP Morgan Chase & Co. and I love riding my bike 🏍️</p> <!-- windows key + . (dot) to open up emoji selection pane-->
-            </td>
-        </tr>
-    </table>
+    <div class="top-container">
+        <img class="Propic" src="Allan.png" alt="Allan's Profile Picture">
+        <h1>Hi! I'm Allan.</h1>
+        <p class="des">I'm an aspiring developer.</p>
+    </div>
+    <hr>
+
+    <div class="middle-container">
+        <div class="profile">
+          <!--<h2>Hello.</h2>-->
+          <img class="hello-img" src="hello.png" alt="Hello">
+          <p class="intro">I'm a BCA graduate with 3 years of experience in the sale sector and 2 years of experience in the banking sector. I'm an aspiring web developer and 
+            trying to find my way back to doing what I love. Hence, learning and equipping myself with the tools and skills required to bridge that gap of transition I am looking
+            to make.
+          </p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+
+          <div class="skill-row">
+            <img class="webdev" src="programming.png" alt="Web Development">
+            <h3>Web Development</h3>
+            <p>Learning the art of Web Development.</p>
+          </div>
+
+          <div class="skill-row">
+            <img class="Dscience" src="data-science.png" alt="Data Science">
+            <h3>Data Science With Python</h3>
+            <p>Self taught myself Data Science. Well acquainted with Jupyter notebook. I would still clasify myself as a begineer in the field of Data Science.</p>
+          </div>
+
+          <div class="skill-row">
+            <img class="sql" src="mysql.png" alt="MySql">
+            <h3>MySql</h3>
+            <p>Proficient with Mysql and the CRUD operations of Mysql. I have used Mysql in multiple projects.</p>
+          </div>
+
+          <div class="skill-row">
+            <img class="excel" src="excel.png" alt="MS Excel">
+            <h3>Excel</h3>
+            <p>Good knowledge of MS Excel. Proficient with report creation, data maintenance, cleaning, etc.</p>
+          </div>
+
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2 class="contact-row">Get In Touch</h2>
+          <h3 class="h3-contact">If I'm the right candidate.</h3>
+          <p class="contact-msg">If you feel my profile fits your needs. Please contact me by clicking the button below or clicking on any of the below links.</p>
+          <a class="btn" href="mailto:allanjoeyryngksai11@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
     
-    <hr size="3">
-    <h3>My Education</h3>
-    <!-- HTML list(bullet list etc), the below code shows the Unordered list-->
-    <ul>
-        <li>Completed SSLC from Jail Road Boys' Higher Secondary School.</li>
-        <li>Completed HSSLC from Christian Academy School.</li>
-        <li>Completed Graduation degree from ST Edmunds College.</li>
-    </ul>
-    <hr size="3">
+      <div class="bottom-container">
+        <a class="" href="https://www.linkedin.com/in/allan-ryngksai-a240b2128/">LinkedIn</a>
+        <a class="" href="https://twitter.com/AllanRyngksai">Twitter</a>
+        <a class="" href="https://instagram.com/allanjryngksai_1511?igshid=YmMyMTA2M2Y=">Instagram</a>
+        <p class="para">© Allan Ryngksai.</p>
+      </div>
 
-    <h3>Work Experience</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tr>
-            <td>2018-2022</td>
-            <td>Work as a Sales Analyst in Tech Mahindra Business Servives</td>
-        </tr>
-        <tr>
-            <td>2022-Present</td>
-            <td>Working as an Analyst for JP Morgan Chase & Co.</td>
-        </tr>
-    </table>
-    <hr size="3">
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>Python for Datascience</td>
-            <td>⭐⭐⭐⭐</td>
-            <td>HTML5</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-
-        <tr>
-            <td>MS Excel</td>
-            <td>⭐⭐⭐</td>
-            <td>Web Development</td>
-            <td>⭐⭐</td>
-        </tr>
-
-        <tr>
-            <td>MySql</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-    </table>
-    <hr size="3">
-    <a href="hobbies.html">My Hobbies</a>
-    <br>
-    <a href="contact.html">My Contact Details</a>
 </body>
-</html>
+</html> 
